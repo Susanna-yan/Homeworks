@@ -24,7 +24,7 @@ console.log(sum);*/
 
 /*--------4-----------
 function reverseStr(str){
-    let rev = " ";
+    let rev = "";
     for(let i = str.length - 1; i >= 0; i--){
         rev += str[i];
     }
@@ -88,6 +88,9 @@ console.log(EvenOdd(12));*/
 
 /*-------11--------
 function Type(val){
+    if(val === null){
+       return "null"
+    }
     return typeof val;
 }
 console.log(Type(null));
