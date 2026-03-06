@@ -89,7 +89,7 @@ console.log(EvenOdd(12));*/
 /*-------11--------
 function Type(val){
     if(val === null){
-       return "null"
+       return "null";
     }
     return typeof val;
 }
